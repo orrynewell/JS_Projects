@@ -9,17 +9,11 @@
   box-sizing: border-box;
 }
 
-#title {
-  display: flex;
-  flex-basis: 100%;
-  flex-flow: row;
-  width: 100%;
-}
-
 body {
   font-family: "Muli", sans-serif;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
