@@ -16,7 +16,7 @@ This project reinforced some basics on grabbing items within the dom and forced 
 ### Description
 In this project I made 4 circles and a line to represent where you were in the completion of a form. As you clicked next the bar would grow to the next circle and activate that circle. 
 
-<img src="Images/ProgressBar.PNG" alt="alt" width="300" height="200">
+<img src="Images/ProgressBar.PNG" alt="alt" width="300" height="150">
 
 ### Lesson Learned
 This project introduced how to make variables within css. This was a really convenient option for duplicating colors for multiple objects. Learning how to manipulate a div to represent a line was also very helpful. I intend to implement this for the website I create.
