@@ -12,7 +12,7 @@ A simple project where a main card is active and takes up a majority of the page
 ### Lesson Learned
 This project reinforced some basics on grabbing items within the dom and forced me to use more flexbox properties as I have mostly been using bootstrap.  It also helped to get some more practice with adding and removing css classes.
 
-##Project 2 - Progress Bar
+## Project 2 - Progress Bar
 ### Description
 In this project I made 4 circles and a line to represent where you were in the completion of a form. As you clicked next the bar would grow to the next circle and activate that circle. 
 
