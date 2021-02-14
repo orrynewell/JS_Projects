@@ -25,7 +25,7 @@ This project introduced how to make variables within css. This was a really conv
 ### Description
 This project was interesting because it really went in depth with how the relative fixed and absolute positioning properties work. The page will rotate when the navigational button is selected in the top left.
 
-<img src="Images/rotate-pj-1.PNG" alt="alt" width="450" height="400"> <img src="Images/rotate-pj-2.PNG" alt="alt" width="450" height="400"> 
+<img src="Images/rotate-pj-1.PNG" alt="alt" width="400" height="350"> <img src="Images/rotate-pj-2.PNG" alt="alt" width="400" height="350"> 
                                                                    
 ### Lesson Learned
 This project was very helpful for understanding positioning properties. However, I feel that this style of doing a navigational bar is a bit jarring and I do not like it for a navigational option.
