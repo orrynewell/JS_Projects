@@ -16,8 +16,16 @@ This project reinforced some basics on grabbing items within the dom and forced 
 ### Description
 In this project I made 4 circles and a line to represent where you were in the completion of a form. As you clicked next the bar would grow to the next circle and activate that circle. 
 
-<img src="Images/ProgressBar.PNG" alt="alt" width="300" height="200">
+<img src="Images/ProgressBar.PNG" alt="alt" width="300" height="150">
 
 ### Lesson Learned
-This porject introduced how to make variables within css. This was a really convenient option for duplicating colors for multiple objects. Learning how to manipulate a div to represent a line was also very helpful. I intend to implement this for the website I create.
+This project introduced how to make variables within css. This was a really convenient option for duplicating colors for multiple objects. Learning how to manipulate a div to represent a line was also very helpful. I intend to implement this for the website I create.
+
+## Project 3 - Rotating Page  
+### Description
+This project was interesting because it really went in depth with how the relative fixed and absolute positioning properties work. The page will rotate when the navigational button is selected in the top left.
+
+<img src="Images/rotate-pj-1.PNG" alt="alt" width="400" height="350"> <img src="Images/rotate-pj-2.PNG" alt="alt" width="400" height="350"> 
                                                                    
+### Lesson Learned
+This project was very helpful for understanding positioning properties. However, I feel that this style of doing a navigational bar is a bit jarring and I do not like it for a navigational option.
