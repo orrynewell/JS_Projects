@@ -1,0 +1,209 @@
+.myNav {
+  background: black;
+}
+
+.navLink {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.navLink:hover,
+.infoLink:hover {
+  color: orange;
+  text-decoration: 2px orange underline;
+}
+
+.navbar-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbar-toggler {
+  border-color: rgb(255, 165, 0);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+body h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+#eCustomerForm {
+  border-right: 2px gray solid;
+}
+
+footer {
+  color: #999999;
+}
+
+.footerParagraph {
+  font-size: 0.8rem;
+}
+
+.footerList {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerList li {
+  font-size: 0.8rem;
+}
+
+main .container-fluid {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  border: none;
+}
+
+#card0 {
+  padding-top: 10%;
+}
+
+#card2 {
+  padding-top: 2%;
+}
+
+.disabled {
+  display: none;
+}
+
+/* Progress bar items */
+
+.disabled-btn {
+  cursor: not-allowed;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.progress-container::before {
+  content: "";
+  background-color: gray;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.progress {
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  transform: translateY(-50%);
+  z-index: 0;
+  transition: 0.4s ease;
+}
+
+.circle {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid gray;
+  transition: 0.4s ease;
+  z-index: 1;
+}
+
+.circle.active {
+  border-color: orange;
+  color: orange;
+}
+
+.btn {
+  background: orange;
+  color: black;
+  border: 2px black solid;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-primary {
+  background-color: orange;
+  border: 2px black solid;
+  color: black;
+}
+
+.btn-primary:disabled {
+  background-color: orange;
+  border: 2px black solid;
+  color: black;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem orange;
+}
+
+.btn-primary:hover {
+  color: orange;
+  background-color: black;
+  border: orange 2px solid;
+  font-weight: bold;
+}
+
+@media (max-width: 993px) {
+  #smallLogo {
+    width: 3.8em;
+    height: 5.5vh;
+  }
+
+  .navbar-expand-lg > .container-fluid {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .col-lg-6 {
+    margin-bottom: 5%;
+    padding: 5%;
+    border-bottom: 2px solid gray;
+  }
+}

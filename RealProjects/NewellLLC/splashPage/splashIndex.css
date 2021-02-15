@@ -1,0 +1,77 @@
+.myNav{
+    background:black;
+}
+
+
+.navLink{
+    font-size: 1.5rem;
+    color:orange;
+}
+
+.navLink:hover, .infoLink:hover{
+    color: orange;
+    text-decoration: 2px orange underline;
+}
+
+.infoLink{
+    font-size: 1.0rem;
+    color:orange;
+}
+
+.navbar-right{
+    margin-left:auto;
+    margin-right:0;
+}
+
+.navbar-toggler{
+    border-color: rgb(255,165,0);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer{
+    color:#999999;
+}
+
+h2{
+    margin-top:5px;
+    font-size:1.2rem;
+}
+
+h3{
+    font-size: 1.0rem;
+}
+
+.footerParagraph{
+    font-size: 0.8rem;
+}
+
+.footerList{
+    text-align: left;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.footerList li{
+    font-size:0.8rem;
+}
+
+
+@media (max-width: 993px){
+    #smallLogo{
+        width:3.8em;
+        height:5.5vh;
+    }
+
+    .navbar-expand-lg > .container-fluid{
+        padding-left:  2%;
+        padding-right: 2%;
+    }
+
+    .footerList{
+        text-align:center;
+    }
+}
