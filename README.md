@@ -34,8 +34,8 @@ This project was very helpful for understanding positioning properties. However,
 ### Description
 This project created a search icon and when it is selected it expands so an entry can be typed.
 
-<img src="50ProjectsIn50Days/Images/search_pj-1.PNG" alt="alt" width="300" height="150">
-<img src="50ProjectsIn50Days/Images/search_pj-2.PNG" alt="alt" width="300" height="150">
+<img src="50ProjectsIn50Days/Images/search_pj-1.PNG" alt="alt" width="300" height="100">
+<img src="50ProjectsIn50Days/Images/search_pj-2.PNG" alt="alt" width="300" height="100">
 
 ### Lesson Learned
 This was a nice tool for a website addon. Maybe in like a navigational bar.
