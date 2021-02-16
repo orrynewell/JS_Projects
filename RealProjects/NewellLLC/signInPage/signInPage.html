@@ -62,6 +62,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                    <a href="">Forgot My Password</a>
                 </div>
                 <div class="col-lg-6">
                     <h2>NEW CUSTOMER</h2>
@@ -93,7 +94,7 @@
                         </div>
                 </div>
                 <div class='card-contents disabled' id='content1'>
-                <h2>Information Lookup</h2>
+                <h2>Address Lookup</h2>
                 <form class="row g-3">
                     <div class="col-md-6">
                       <label for="firstName" class="form-label">First Name</label>
@@ -126,7 +127,7 @@
                     <div class="col-12 mt-5">
                       <button type="" id="verify" class="btn btn-primary">Verify</button>
                     </div>
-                  </form>
+                </form>
                 </div>
                 
                 <div class='card-contents disabled' id='content2'>
@@ -146,6 +147,66 @@
                         </div>
                     </form>
                 </div>
+                <div class='card-contents disabled' id='content3'>
+                    <h2>Billing Information</h2>
+                    <form class="row g-3">
+                        <div class="col-12 mt-3" align='center'>
+                            <input type="checkbox" class="form-check-input" id="bankingCheck">
+                            <label class="form-check-label" for="bankingCheck">Same Info as Address</label>
+                        </div>
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="firstName" class="form-label">First Name</label>
+                                  <input type="text" class="form-control" id="billingFirstName">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="lastName" class="form-label">Last Name</label>
+                                  <input type="text" class="form-control" id="billingLastName">
+                                </div>
+                                <div class="col-12 mt-1">
+                                  <label for="inputAddress" class="form-label">Street Address</label>
+                                  <input type="text" class="form-control" id="billingInputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="col-12 mt-1">
+                                  <label for="inputAddress2" class="form-label">Apartment, Studio, Floor, etc</label>
+                                  <input type="text" class="form-control" id="billingInputAddress2" placeholder="Apartment, studio, or floor">
+                                </div>
+                                <div class="col-md-6 mt-1">
+                                  <label for="inputCity" class="form-label">City</label>
+                                  <input type="text" class="form-control" id="billingInputCity">
+                                </div>
+                                <div class="col-md-4 mt-1">
+                                    <label for="inputState" class="form-label">State</label>
+                                  <input type="text" class="form-control" id="billingInputState">
+                                </div>
+                                <div class="col-md-2 mt-1">
+                                  <label for="inputZip" class="form-label">Zip</label>
+                                  <input type="text" class="form-control" id="billingInputZip">
+                                </div>
+                                <div class="col-md-6 mt-1">
+                                    <label for="inputCity" class="form-label">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                  </div>
+                                  <div class="col-md-4 mt-1">
+                                      <label for="inputState" class="form-label">Expiration Date</label>
+                                    <input type="text" class="form-control" id="expirationDate" placeholder="MM/DD">
+                                  </div>
+                                  <div class="col-md-2 mt-1">
+                                    <label for="inputZip" class="form-label">Security Code</label>
+                                    <input type="text" class="form-control" id="securityCode">
+                                  </div>
+                                <div class="col-12 mt-3">
+                                  <button type="" id="cardSubmit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                    </form>
+                </div>
+            <div class='card-contents disabled' id='content4'>
+                    <h2>Payment Confirmation</h2>
+                <form class="row g-3">
+                    
+                </form>
+            </div>
                 <div class="button-grp mt-3 pt-4">
                 <button class="btn btn-primary disabled-btn" id="prev">Back</button>
                 <button class="btn btn-primary disabled-btn" id="next">Next</button>

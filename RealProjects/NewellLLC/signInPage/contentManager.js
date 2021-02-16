@@ -7,22 +7,6 @@ const verify = document.querySelector('#verify');
 
 let currentActive = 1;
 
-//Pseudo verifies the information for the address
-verify.addEventListener('click', () =>{
-    event.preventDefault();
-    const delay = Math.floor(Math.random() * 3000);
-    console.log(delay)
-    setTimeout(function() {
-    if (delay > 1000){
-        console.log("Success")
-        next.disabled = false;
-        next.classList.remove('disabled-btn');
-    }
-    else{
-        console.log("Check Information Again")
-    }}, delay)
-})
-
 //All items with progress bar
 next.addEventListener('click', () =>{
     if (currentActive < circles.length){
@@ -65,11 +49,6 @@ function update(){
     }
 
     if (currentActive === 4){
-        next.classList.add('disabled-btn')
         next.disabled = true;
-    }
-    else{
-        next.classList.remove('disabled-btn')
-        next.disabled = false;
     }
 }
