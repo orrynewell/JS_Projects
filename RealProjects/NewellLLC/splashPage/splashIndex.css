@@ -1,77 +1,132 @@
-.myNav{
-    background:black;
+* {
+  font-family: "Roboto Slab", serif;
 }
 
-
-.navLink{
-    font-size: 1.5rem;
-    color:orange;
+.navLink {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: orange;
 }
 
-.navLink:hover, .infoLink:hover{
-    color: orange;
-    text-decoration: 2px orange underline;
+.navlink,
+span {
+  font-size: 1.8rem;
 }
 
-.infoLink{
-    font-size: 1.0rem;
-    color:orange;
+.navLink:hover,
+.infoLink:hover {
+  color: orange;
+  text-decoration: 2px orange underline;
 }
 
-.navbar-right{
-    margin-left:auto;
-    margin-right:0;
+.infoLink {
+  font-size: 1rem;
+  color: orange;
 }
 
-.navbar-toggler{
-    border-color: rgb(255,165,0);
+#navBar {
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  background: center / contain no-repeat
+    url("/Web-Development-Projects/RealProjects/NewellLLC/Images/banner-03.png");
+  background-clip: border-box;
+  background-size: 100% 170px;
+}
+
+#navButtons {
+  position: relative;
+  left: 12%;
+  top: 34%;
+}
+
+main {
+  padding-top: 18%;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-bottom: 10%;
+}
+
+.carousel-indicators .active {
+  background-color: orange;
+}
+
+.carousel-indicators li {
+  background-color: gray;
+}
+
+.carousel-control-next-icon {
+  background-image: url("/Web-Development-Projects/RealProjects/NewellLLC/Images/rightArrow.png");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("/Web-Development-Projects/RealProjects/NewellLLC/Images/leftArrow.png");
+}
+
+.img-fluid {
+  width: 120%;
+  max-width: 120%;
+}
+
+.navbar-right {
+  margin-left: 47%;
+  margin-right: 0;
+}
+
+.banner img {
+  padding: 0;
+  border-bottom: 5px black solid;
+  z-index: -1;
+}
+
+.navbar-toggler {
+  border-color: rgb(255, 165, 0);
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 165, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-footer{
-    color:#999999;
+footer {
+  color: #999999;
 }
 
-h2{
-    margin-top:5px;
-    font-size:1.2rem;
+h2 {
+  margin-top: 5px;
+  font-size: 2rem;
 }
 
-h3{
-    font-size: 1.0rem;
+h3 {
+  font-size: 1rem;
 }
 
-.footerParagraph{
-    font-size: 0.8rem;
+.footerParagraph {
+  font-size: 0.8rem;
 }
 
-.footerList{
-    text-align: left;
-    list-style: none;
-    padding:0;
-    margin:0;
+.footerList {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.footerList li{
-    font-size:0.8rem;
+.footerList li {
+  font-size: 0.8rem;
 }
 
+@media (max-width: 993px) {
+  #smallLogo {
+    width: 3.8em;
+    height: 5.5vh;
+  }
 
-@media (max-width: 993px){
-    #smallLogo{
-        width:3.8em;
-        height:5.5vh;
-    }
+  .navbar-expand-lg > .container-fluid {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 
-    .navbar-expand-lg > .container-fluid{
-        padding-left:  2%;
-        padding-right: 2%;
-    }
-
-    .footerList{
-        text-align:center;
-    }
+  .footerList {
+    text-align: center;
+  }
 }
